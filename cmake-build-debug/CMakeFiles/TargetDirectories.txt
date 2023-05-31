@@ -1,0 +1,3 @@
+/Users/aires/CLionProjects/paycheck-calculator/cmake-build-debug/CMakeFiles/paycheck_calculator.dir
+/Users/aires/CLionProjects/paycheck-calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aires/CLionProjects/paycheck-calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
