@@ -24,7 +24,7 @@ int main() {
      double otSum = -1.5 * yourPayRate * overTimeHours;
 
      cout << "Your reg pay is " << regSum << " and your overtime pay is " << otSum  << "\n";
-     cout << "for a gran total of " << regSum + otSum;
+     cout << "For a grand total of " << regSum + otSum;
  }
 
 
