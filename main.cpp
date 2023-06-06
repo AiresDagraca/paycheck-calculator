@@ -4,28 +4,28 @@ using namespace std;
 
 int main() {
 
-    int hours;
-    int rate;
-    int otHours;
+   int regWorkHours = 40;
+   double yourPayRate;
+  // double overtimePayRate = 1.5 * yourPayRate;
+   double totalHours;
 
-    double x = 1.5;
+   cout << "How many hours did you work this week?\n";
+   cin >> totalHours;
+   cout << "What is your hourly pay rate?\n";
+   cin >> yourPayRate;
 
-   int otPay = rate * x;
-    int regPay;
+    if (totalHours <= regWorkHours){
+    cout << "Your total pay is " << totalHours * yourPayRate;
 
+    }
+ else {
+     double overTimeHours = regWorkHours - totalHours;
+     double regSum = regWorkHours * yourPayRate;
+     double otSum = 1.5 * yourPayRate * overTimeHours;
 
-    cout << "How many hours did you work this week.\n";
-    cin >> hours;
-    cout << "What is your hourly pay rate.\n";
-    cin >> rate;
-
-    cout << "You made " << hours * rate << " dollars this week\n";
-
-    cout << "Awesome.\n";
-    cout << "How many overtime hours did your work.\n";
-    cin >> otHours;
-
-   cout << "Your overtime pay is " <<  otHours * otPay  << " and your reg pay is " << hours * rate;
+     cout << "Your reg pay is " << regSum << " and your overtime pay is " << otSum  << "\n";
+     cout << "for a gran total of " << regSum + otSum;
+ }
 
 
 
