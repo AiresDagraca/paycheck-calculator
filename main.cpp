@@ -18,7 +18,7 @@ int main() {
     cout << "Your total pay is " << totalHours * yourPayRate;
 
     }
- else {
+    else {
      double overTimeHours = regWorkHours - totalHours;
      double regSum = regWorkHours * yourPayRate;
      double otSum = -1.5 * yourPayRate * overTimeHours;
