@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-   int regWorkHours = 40;
+   int regWorkHours = 50;
    double yourPayRate;
   // double overtimePayRate = 1.5 * yourPayRate;
    double totalHours;
